@@ -76,25 +76,24 @@ const programs = [
     title: "Leadership & Mentorship",
     description:
       "Building confident leaders through guidance, mentorship, and real-world experiences.",
-    image:
-      "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&fit=crop&w=500&q=85",
+    image: "/images/youth-leadership-confidence-empowerment-yef-Leadership-Mentorship.webp",
   },
-  {
-    number: "03",
-    title: "Community Development",
-    description:
-      "Creating positive change through community projects and youth-led initiatives.",
-    image:
-      "https://images.unsplash.com/photo-1559027615-cd4628902d4a?auto=format&fit=crop&w=500&q=85",
-  },
-  {
-    number: "04",
-    title: "Career & Entrepreneurship",
-    description:
-      "Supporting young dreamers to start, grow, and build impactful careers and ventures.",
-    image:
-      "https://images.unsplash.com/photo-1556761175-b413da4baf72?auto=format&fit=crop&w=500&q=85",
-  },
+ {
+  number: "03",
+  title: "Community Development",
+  description:
+    "Creating positive change through community projects and youth-led initiatives.",
+  image:
+    "/images/yef-community-development-youth-led-initiatives.webp",
+},
+ {
+  number: "04",
+  title: "Career & Entrepreneurship",
+  description:
+    "Supporting young dreamers to start, grow, and build impactful careers and ventures.",
+  image:
+    "/images/yef-youth-career-development-entrepreneurship.jpg",
+},
 ];
 
 const events = [
@@ -699,20 +698,21 @@ export default function Home({
                 "right"
               )} lg:ml-auto`}
             >
-              <div className="overflow-hidden rounded-[12px]">
-                <img
-                  src="https://images.unsplash.com/photo-1559027615-cd4628902d4a?auto=format&fit=crop&w=1100&q=90"
-                  alt="Young volunteers working together"
-                  className="h-[380px] w-full object-cover transition-transform duration-700 hover:scale-[1.02] md:h-[440px]"
-                />
-              </div>
+            <div className="overflow-hidden rounded-[12px]">
+  <img
+    src="/images/youth-leadership-confidence-empowerment-yef.webp"
+    alt="Young people building confidence, developing leadership skills, and creating positive change through Youth Evolution Foundation"
+    title="Where Young People Find the Confidence to Lead"
+    className="h-[380px] w-full object-cover transition-transform duration-700 hover:scale-[1.02] md:h-[440px]"
+  />
+</div>
 
-              <div className="absolute -bottom-7 left-4 w-[155px] rounded-[9px] bg-[#0758AA] p-5 shadow-[0_14px_35px_rgba(7,88,170,0.25)] md:left-[-22px] md:w-[170px]">
-                <p className="text-[14px] font-semibold leading-[1.55] text-white md:text-[15px]">
-                  “We believe in youth. We invest in potential. We build
-                  stronger communities together.”
-                </p>
-              </div>
+<div className="absolute -bottom-7 left-4 w-[155px] rounded-[9px] bg-[#0758AA] p-5 shadow-[0_14px_35px_rgba(7,88,170,0.25)] md:left-[-22px] md:w-[170px]">
+  <p className="text-[14px] font-semibold leading-[1.55] text-white md:text-[15px]">
+    “We believe in youth. We invest in potential. We build
+    stronger communities together.”
+  </p>
+</div>
             </div>
           </div>
         </div>
@@ -750,7 +750,7 @@ export default function Home({
               )}`}
             >
               <img
-                src="https://images.unsplash.com/photo-1531482615713-2afd69097998?auto=format&fit=crop&w=1200&q=90"
+                src="/images/youth-leadership-confidence-empowerment-yef-education-seminar.webp"
                 alt="Young woman speaking during a learning session"
                 className="absolute inset-0 h-full w-full object-cover transition-transform duration-700 hover:scale-[1.03]"
               />
