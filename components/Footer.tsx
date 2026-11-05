@@ -76,7 +76,7 @@ export default function Footer() {
       "https://www.linkedin.com/company/youth-evolution-foundation/",
       "https://www.youtube.com/@YouthEvolutionFoundation",
     ],
-    "telephone": "+923304837558",
+    "telephone": "+923445907911",
     "email": "universityrelations.yef@gmail.com",
     "address": {
       "@type": "PostalAddress",
@@ -197,7 +197,7 @@ export default function Footer() {
             <div className="flex flex-col gap-2.5 text-sm">
               {/* Phone */}
               <a
-                href="tel:+923304837558"
+                href="tel:+923445907911"
                 className="flex items-center gap-3 p-2.5 rounded-xl bg-blue-950/60 border border-blue-900/60 text-slate-200 hover:text-white hover:bg-blue-900/40 hover:border-blue-400 transition-all group"
               >
                 <div className="flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-[#0046ad] text-blue-100 group-hover:scale-105 transition-transform">
