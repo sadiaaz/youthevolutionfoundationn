@@ -205,7 +205,7 @@ export default function Footer() {
                 </div>
                 <div className="flex flex-col">
                   <span className="text-[10px] font-medium text-blue-300 uppercase tracking-wider">Phone</span>
-                  <span className="font-semibold text-xs sm:text-sm">+92 330 4837558</span>
+                  <span className="font-semibold text-xs sm:text-sm">+92 344 5907911</span>
                 </div>
               </a>
 
