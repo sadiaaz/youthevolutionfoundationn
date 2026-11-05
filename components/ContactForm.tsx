@@ -65,19 +65,19 @@ export default function ContactForm({
     {
       icon: "📍",
       title: "Our Office",
-      text: clean(officeAddress) || "Karachi, Pakistan",
+      text: clean(officeAddress) || "Pakistan",
       breakAll: false,
     },
     {
       icon: "📞",
       title: "Phone Number",
-      text: clean(phoneNumbers) || "+92 330 4837558",
+      text: clean(phoneNumbers) || "+92 344 5907911",
       breakAll: false,
     },
     {
       icon: "📠",
-      title: "Fax",
-      text: faxNumber?.trim() || "N/A",
+      title: "Whats App",
+      text: faxNumber?.trim() || "+92 3445907911",
       breakAll: false,
     },
     {
