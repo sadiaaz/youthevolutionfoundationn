@@ -71,7 +71,7 @@ export default function ContactForm({
     {
       icon: "📞",
       title: "Phone Number",
-      text: clean(phoneNumbers) || "+92 330 4837558",
+      text: clean(phoneNumbers) || "+92 344 5907911",
       breakAll: false,
     },
     {

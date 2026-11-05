@@ -27,7 +27,7 @@ export default defineType({
       name: 'phoneNumbers',
       title: 'Phone Numbers',
       type: 'text',
-      description: 'One per line, e.g. +92 330 4837558',
+      description: 'One per line, e.g. +92 344 5907911',
     }),
     defineField({
       name: 'faxNumber',
