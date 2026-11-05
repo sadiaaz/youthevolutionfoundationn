@@ -53,11 +53,11 @@ export default function Navbar() {
           <address className="not-italic flex flex-wrap justify-between items-center gap-2 max-w-7xl mx-auto">
             <div className="flex items-center gap-4 sm:gap-6">
               <a
-                href="tel:+923304837558"
+                href="tel:+92344590791"
                 className="flex items-center gap-1.5 hover:text-blue-200 transition-colors font-medium text-xs sm:text-sm"
               >
                 <Phone className="w-3.5 h-3.5 text-blue-300" aria-hidden="true" />
-                <span>+92 330 4837558</span>
+                <span>+92 344 5907911</span>
               </a>
               <a
                 href="mailto:info@youthevolutionfoundation.com"
@@ -67,7 +67,7 @@ export default function Navbar() {
                 <span>info@youthevolutionfoundation.com</span>
               </a>
               <a
-                href="https://wa.me/923304837558"
+                href="https://wa.me/92344590791"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Contact Youth Evolution Foundation via WhatsApp"
