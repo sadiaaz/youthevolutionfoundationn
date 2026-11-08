@@ -26,7 +26,9 @@ const NAV_LINKS: NavLink[] = [
   { label: "About", href: "/about-us", title: "About Youth Evolution Foundation" },
   { label: "Our Work", href: "/our-work", title: "Our Work in Evolution Foundation" },
   { label: "Events", href: "/events", title: "Events by Youth Evolution Foundation" },
+  { label: "Volunteer", href: "/volunteer", title: "Volunteer Youth Evolution Foundation" },
   { label: "Contact", href: "/contact", title: "Contact Youth Evolution Foundation" },
+
 ];
 
 export default function Navbar() {
@@ -37,7 +39,7 @@ export default function Navbar() {
     "@context": "https://schema.org",
     "@type": "SiteNavigationElement",
     "name": NAV_LINKS.map((link) => link.label),
-    "url": NAV_LINKS.map((link) => `https://youthevolution.org${link.href}`),
+    "url": NAV_LINKS.map((link) => `https://youthevolutionfoundation.org${link.href}`),
   };
 
   return (
@@ -60,11 +62,11 @@ export default function Navbar() {
                 <span>+92 344 5907911</span>
               </a>
               <a
-                href="mailto:info@youthevolutionfoundation.com"
+                href="mailto:info@youthevolutionfoundation.org"
                 className="hidden md:flex items-center gap-1.5 hover:text-blue-200 transition-colors font-medium text-xs sm:text-sm"
               >
                 <Mail className="w-3.5 h-3.5 text-blue-300" aria-hidden="true" />
-                <span>info@youthevolutionfoundation.com</span>
+                <span>info@youthevolutionfoundation.org</span>
               </a>
               <a
                 href="https://wa.me/923304837558"

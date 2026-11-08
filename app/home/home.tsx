@@ -37,10 +37,10 @@ const heroSlides = [
 ];
 
 const heroImages = [
-  "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&fit=crop&w=2200&q=90",
-  "https://images.unsplash.com/photo-1529390079861-591de354faf5?auto=format&fit=crop&w=2200&q=90",
-  "https://images.unsplash.com/photo-1531206715517-5c0ba140b2b8?auto=format&fit=crop&w=2200&q=90",
-  "https://images.unsplash.com/photo-1475721027785-f74eccf877e2?auto=format&fit=crop&w=2200&q=90",
+  "https://images.unsplash.org/photo-1529156069898-49953e39b3ac?auto=format&fit=crop&w=2200&q=90",
+  "https://images.unsplash.org/photo-1529390079861-591de354faf5?auto=format&fit=crop&w=2200&q=90",
+  "https://images.unsplash.org/photo-1531206715517-5c0ba140b2b8?auto=format&fit=crop&w=2200&q=90",
+  "https://images.unsplash.org/photo-1475721027785-f74eccf877e2?auto=format&fit=crop&w=2200&q=90",
 ];
 
 const partnerLogos = [
@@ -848,12 +848,12 @@ export default function Home({
                 "left"
               )}`}
             >
-              <div className="relative overflow-hidden rounded-[10px]">
-                <img
-                  src="https://images.unsplash.com/photo-1475721027785-f74eccf877e2?auto=format&fit=crop&w=1200&q=90"
-                  alt="Young woman speaking at a leadership conference"
-                  className="h-[270px] w-full object-cover transition-transform duration-700 hover:scale-[1.03] md:h-[300px]"
-                />
+             <div className="relative overflow-hidden rounded-[10px]">
+  <img
+    src="/images/YEF-proudly-partnered-with-YEF-proudly-partnered-with-IxDF-Pakistan-×-InvoNexus-to-promote-AI-innovation-and-design-excellence-at-NED-University,-Karachi.webp"
+    alt="IxDF Pakistan and InvoNexus partnership at NED University, Karachi"
+    className="h-[270px] w-full object-cover transition-transform duration-700 hover:scale-[1.03] md:h-[300px]"
+  />
 
                 <div className="absolute left-4 top-4 flex h-[62px] w-[58px] flex-col items-center justify-center rounded-[7px] bg-[#0758AA] text-white shadow-lg">
                   <span className="text-[21px] font-bold leading-none">

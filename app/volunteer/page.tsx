@@ -25,8 +25,8 @@ export default async function VolunteerPage() {
     console.error("Sanity fetch error:", e);
   }
 
-    let heroImageUrl: string | null = "/images/volunteer-hero.jpg";
-    let sideImageUrl: string | null = "/images/volunteer-side.jpg";
+    let heroImageUrl: string | null = "/images/volunteer-hero.webp";
+    let sideImageUrl: string | null = "/images/volunteer-side.webp";
   try {
     if (pageData?.heroImage?.asset)
       heroImageUrl = urlFor(pageData.heroImage).width(1920).url();

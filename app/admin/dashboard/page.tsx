@@ -372,7 +372,7 @@ export default function AdminDashboard() {
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify({
               donor_name: data.donorName,
-              donor_email: `${data.donorName.toLowerCase().replace(/\s+/g, "")}@example.com`,
+              donor_email: `${data.donorName.toLowerCase().replace(/\s+/g, "")}@example.org`,
               amount: Number(data.amount) || 0,
               payment_method: data.paymentMethod || "Direct",
               transaction_ref: data.transactionRef || null,

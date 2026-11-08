@@ -28,7 +28,7 @@ export default function Home() {
             Access CMS Studio
           </Link>
           <a
-            href="https://github.com/sadiaaz/youthEvolutionFoundation" 
+            href="https://github.org/sadiaaz/youthEvolutionFoundation" 
             target="_blank" 
             rel="noopener noreferrer" 
             className="rounded-lg border border-gray-300 bg-white px-6 py-3 font-semibold text-gray-700 shadow-sm transition-all hover:bg-gray-100 active:scale-95" 

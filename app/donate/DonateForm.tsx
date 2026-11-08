@@ -212,6 +212,69 @@ export default function DonateForm() {
           </form>
         )}
       </div>
+
+ {/* Donation Payment Options */}
+<section className="mt-12 rounded-2xl border border-gray-200 bg-white p-6 shadow-sm place-items-center">
+  <h2 className="mb-2 text-2xl font-bold text-gray-900">
+    Support Us Through Donation
+  </h2>
+
+  <p className="mb-6 text-gray-600">
+    You can support our mission through the following payment methods.
+  </p>
+
+  <div className="grid gap-5 sm:grid-cols-2">
+
+    {/* EasyPaisa */}
+    <div className="rounded-xl border border-green-200 bg-green-50 p-5">
+      <h3 className="text-xl font-bold text-green-700">
+        EasyPaisa
+      </h3>
+      <p className="mt-3 text-sm text-gray-600">
+        Account Title : Adil Zaman
+      </p>
+      <p className="font-semibold text-gray-900">
+        Youth Evolution Foundation Founder
+      </p>
+
+      <p className="mt-3 text-sm text-gray-600">
+        EasyPaisa Number
+      </p>
+      <p className="font-bold text-gray-900">
+          03445907911
+      </p>
+    </div>
+
+    {/* Bank Transfer */}
+    <div className="rounded-xl border border-blue-200 bg-blue-50 p-5">
+      <h3 className="text-xl font-bold text-blue-700">
+        Bank Transfer
+      </h3>
+      <p className="mt-3 text-sm text-gray-600">
+        Bank Name
+      </p>
+      <p className="font-semibold text-gray-900">
+        YOUR BANK NAME
+      </p>
+
+      <p className="mt-3 text-sm text-gray-600">
+        Account Title
+      </p>
+      <p className="font-semibold text-gray-900">
+        Youth Evolution Foundation
+      </p>
+
+      <p className="mt-3 text-sm text-gray-600">
+        IBAN
+      </p>
+      <p className="break-all font-bold text-gray-900">
+        YOUR-IBAN
+      </p>
+    </div>
+
+  </div>
+</section>
+
     </section>
   );
 }

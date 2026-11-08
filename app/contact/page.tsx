@@ -66,7 +66,7 @@ export default async function ContactPage() {
         email={pageData?.email}
       />
       {/* Donation Payment Options */}
-<section className="mt-12 rounded-2xl border border-gray-200 bg-white p-6 shadow-sm">
+<section className="mt-12 rounded-2xl border border-gray-200 bg-white p-6 shadow-sm place-items-center">
   <h2 className="mb-2 text-2xl font-bold text-gray-900">
     Support Us Through Donation
   </h2>

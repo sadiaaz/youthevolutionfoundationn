@@ -170,7 +170,7 @@ export default function VolunteerForm({
                     name="email"
                     value={form.email}
                     onChange={handleChange}
-                    placeholder="you@example.com"
+                    placeholder="you@example.org"
                     className={inputClass}
                   />
                   {errors.email && <p className={errClass}>{errors.email}</p>}

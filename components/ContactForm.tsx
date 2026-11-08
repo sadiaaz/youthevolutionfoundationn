@@ -83,7 +83,7 @@ export default function ContactForm({
     {
       icon: "✉️",
       title: "Email",
-      text: email?.trim() || "info@youthevolutionfoundation.com",
+      text: email?.trim() || "info@youthevolutionfoundation.org",
       breakAll: true,
     },
   ];

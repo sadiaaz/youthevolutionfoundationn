@@ -24,7 +24,7 @@ const FALLBACK_CERTIFICATES: Array<{
 }> = [
   {
     full_name: "Numair Iqbal",
-    email: "numair@example.com",
+    email: "numair@example.org",
     certificate_program: "Web Development Internship 2026",
     certificate_id: "YEF-WD-2026-001",
     issue_date: "2026-09-15",
@@ -32,7 +32,7 @@ const FALLBACK_CERTIFICATES: Array<{
   },
   {
     full_name: "Ayesha Khan",
-    email: "ayesha@example.com",
+    email: "ayesha@example.org",
     certificate_program: "Community Leadership Program",
     certificate_id: "YEF-CLP-2026-042",
     issue_date: "2026-08-30",
@@ -40,7 +40,7 @@ const FALLBACK_CERTIFICATES: Array<{
   },
   {
     full_name: "Hamza Ali",
-    email: "hamza@example.com",
+    email: "hamza@example.org",
     certificate_program: "Youth Mentorship Fellowship",
     certificate_id: "YEF-YMF-2026-108",
     issue_date: "2026-09-01",

@@ -67,7 +67,7 @@ export async function POST(request: NextRequest) {
     }
 
     // Validate email format if provided
-    const emailToSave = donor_email || `${donor_name.toLowerCase().replace(/\s+/g, "")}@example.com`;
+    const emailToSave = donor_email || `${donor_name.toLowerCase().replace(/\s+/g, "")}@example.org`;
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     if (!emailRegex.test(emailToSave)) {
       return NextResponse.json(

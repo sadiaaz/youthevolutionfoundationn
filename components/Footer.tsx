@@ -56,10 +56,10 @@ const ACTION_LINKS: FooterLink[] = [
 ];
 
 const SOCIAL_LINKS = [
-  { label: "Facebook", href: "https://www.facebook.com/profile.php?id=61571368734643", Icon: FacebookIcon },
-  { label: "Instagram", href: "https://www.instagram.com/youthevolutionfoundation?igsh=MWFqZHpjeDhkdXE2Yg%3D%3D", Icon: InstagramIcon },
-  { label: "LinkedIn", href: "https://www.linkedin.com/company/youth-evolution-foundation/", Icon: LinkedinIcon },
-  { label: "YouTube", href: "https://www.youtube.com/@YouthEvolutionFoundation", Icon: YoutubeIcon },
+  { label: "Facebook", href: "https://www.facebook.org/profile.php?id=61571368734643", Icon: FacebookIcon },
+  { label: "Instagram", href: "https://www.instagram.org/youthevolutionfoundation?igsh=MWFqZHpjeDhkdXE2Yg%3D%3D", Icon: InstagramIcon },
+  { label: "LinkedIn", href: "https://www.linkedin.org/company/youth-evolution-foundation/", Icon: LinkedinIcon },
+  { label: "YouTube", href: "https://www.youtube.org/@YouthEvolutionFoundation", Icon: YoutubeIcon },
 ];
 
 export default function Footer() {
@@ -69,15 +69,15 @@ export default function Footer() {
     "name": "Youth Evolution Foundation",
     "description":
       "Empowering youth through education, mentorship, and community-driven impact in Pakistan.",
-    "url": "https://youthevolution.org",
+    "url": "https://youthevolutionfoundation.org",
     "sameAs": [
-      "https://www.facebook.com/profile.php?id=61571368734643",
-      "https://www.instagram.com/youthevolutionfoundation?igsh=MWFqZHpjeDhkdXE2Yg%3D%3D",
-      "https://www.linkedin.com/company/youth-evolution-foundation/",
-      "https://www.youtube.com/@YouthEvolutionFoundation",
+      "https://www.facebook.org/profile.php?id=61571368734643",
+      "https://www.instagram.org/youthevolutionfoundation?igsh=MWFqZHpjeDhkdXE2Yg%3D%3D",
+      "https://www.linkedin.org/company/youth-evolution-foundation/",
+      "https://www.youtube.org/@YouthEvolutionFoundation",
     ],
     "telephone": "+923304837558",
-    "email": "universityrelations.yef@gmail.com",
+    "email": "universityrelations.yef@gmail.org",
     "address": {
       "@type": "PostalAddress",
       "addressLocality": "Karachi",
@@ -211,7 +211,7 @@ export default function Footer() {
 
               {/* Email */}
               <a
-                href="mailto:info@youthevolutionfoundation.com"
+                href="mailto:info@youthevolutionfoundation.org"
                 className="flex items-center gap-3 p-2.5 rounded-xl bg-blue-950/60 border border-blue-900/60 text-slate-200 hover:text-white hover:bg-blue-900/40 hover:border-blue-400 transition-all group"
               >
                 <div className="flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-[#0046ad] text-blue-100 group-hover:scale-105 transition-transform">
@@ -219,13 +219,13 @@ export default function Footer() {
                 </div>
                 <div className="flex flex-col overflow-hidden">
                   <span className="text-[10px] font-medium text-blue-300 uppercase tracking-wider">Email</span>
-                  <span className="font-semibold text-xs truncate">info@youthevolutionfoundation.com</span>
+                  <span className="font-semibold text-xs truncate">info@youthevolutionfoundation.org</span>
                 </div>
               </a>
 
               {/* Website */}
               <a
-                href="https://youthevolution.org"
+                href="https://youthevolutionfoundation.org"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-3 p-2.5 rounded-xl bg-blue-950/60 border border-blue-900/60 text-slate-200 hover:text-white hover:bg-blue-900/40 hover:border-blue-400 transition-all group"
@@ -235,7 +235,7 @@ export default function Footer() {
                 </div>
                 <div className="flex flex-col">
                   <span className="text-[10px] font-medium text-blue-300 uppercase tracking-wider">Website</span>
-                  <span className="font-semibold text-xs sm:text-sm">youthevolution.org</span>
+                  <span className="font-semibold text-xs sm:text-sm">youthevolutionfoundation.org</span>
                 </div>
               </a>
 

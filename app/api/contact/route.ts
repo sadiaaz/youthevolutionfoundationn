@@ -24,7 +24,7 @@ const FALLBACK_CONTACTS: Array<{
   {
     id: 1,
     name: "Ali Raza",
-    email: "ali@example.com",
+    email: "ali@example.org",
     phone: "03001234567",
     message: "Interested in your community leadership programs.",
     status: "New",
@@ -33,7 +33,7 @@ const FALLBACK_CONTACTS: Array<{
   {
     id: 2,
     name: "Sara Khan",
-    email: "sara@example.com",
+    email: "sara@example.org",
     phone: "03007654321",
     message: "Need more info about volunteer events in Karachi.",
     status: "Read",

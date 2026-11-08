@@ -101,7 +101,7 @@ Make sure you have installed:
 ## 1. Clone the Repository
 
 ```bash
-git clone https://github.com/sadiaaz/youthEvolutionFoundation.git
+git clone https://github.org/sadiaaz/youthEvolutionFoundation.git
 ```
 
 ## 2. Navigate to the Project
@@ -349,8 +349,8 @@ The project source code is private and intended for authorized project contribut
 
 **Youth Evolution Foundation (YEF)**
 
-Email: [info@youthevolutionfoundation.com](mailto:info@youthevolutionfoundation.com)
-Website: https://www.youthevolutionfoundation.com
+Email: [info@youthevolutionfoundation.org](mailto:info@youthevolutionfoundation.org)
+Website: https://www.youthevolutionfoundation.org
 
 ---
 

@@ -26,7 +26,7 @@ const FALLBACK_VOLUNTEERS: Array<{
   {
     id: 1,
     name: "Bilal Ahmed",
-    email: "bilal@example.com",
+    email: "bilal@example.org",
     phone: "03331122334",
     interest: "Teaching",
     message: "Want to help teach underprivileged kids.",
@@ -36,7 +36,7 @@ const FALLBACK_VOLUNTEERS: Array<{
   {
     id: 2,
     name: "Zainab Tariq",
-    email: "zainab@example.com",
+    email: "zainab@example.org",
     phone: "03219988776",
     interest: "Event Management",
     message: "Available on weekends for community drives.",

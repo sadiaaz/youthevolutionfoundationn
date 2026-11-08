@@ -34,12 +34,12 @@ export async function POST(req: NextRequest) {
     } catch (dbError: unknown) {
       console.warn("MySQL connection error:", (dbError as Error)?.message || dbError);
       // If MySQL is offline (e.g., XAMPP stopped), allow default admin to login
-      if (email.trim().toLowerCase() === "admin@yef.com" && password === "Admin@123") {
+      if (email.trim().toLowerCase() === "admin@yef.org" && password === "Admin@123") {
         rows = [
           {
             id: 1,
             name: "Admin User",
-            email: "admin@yef.com",
+            email: "admin@yef.org",
             password: "Admin@123",
           } as Admin,
         ];
@@ -60,7 +60,7 @@ export async function POST(req: NextRequest) {
     // Step 3: Compare password (supports both bcrypt hash and plaintext in DB)
     let isMatch = false;
     try {
-      isMatch = await bcrypt.compare(password, admin.password);
+      isMatch = await bcrypt.orgpare(password, admin.password);
     } catch {
       isMatch = false;
     }

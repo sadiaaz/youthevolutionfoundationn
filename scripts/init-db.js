@@ -106,9 +106,9 @@ async function initDB() {
     await connection.query(`
       INSERT INTO certificates (full_name, email, certificate_program, certificate_id, issue_date, status)
       VALUES 
-        ('Numair Iqbal', 'numair@example.com', 'Web Development Internship 2026', 'YEF-WD-2026-001', '2026-09-15', 'Verified'),
-        ('Ayesha Khan', 'ayesha@example.com', 'Community Leadership Program', 'YEF-CLP-2026-042', '2026-08-30', 'Verified'),
-        ('Hamza Ali', 'hamza@example.com', 'Youth Mentorship Fellowship', 'YEF-YMF-2026-108', '2026-09-01', 'Pending')
+        ('Numair Iqbal', 'numair@example.org', 'Web Development Internship 2026', 'YEF-WD-2026-001', '2026-09-15', 'Verified'),
+        ('Ayesha Khan', 'ayesha@example.org', 'Community Leadership Program', 'YEF-CLP-2026-042', '2026-08-30', 'Verified'),
+        ('Hamza Ali', 'hamza@example.org', 'Youth Mentorship Fellowship', 'YEF-YMF-2026-108', '2026-09-01', 'Pending')
       ON DUPLICATE KEY UPDATE full_name = VALUES(full_name);
     `);
 
@@ -117,8 +117,8 @@ async function initDB() {
     await connection.query(`
       INSERT IGNORE INTO contacts (id, name, email, phone, message, status)
       VALUES 
-        (1, 'Ali Raza', 'ali@example.com', '03001234567', 'Interested in your community leadership programs.', 'New'),
-        (2, 'Sara Khan', 'sara@example.com', '03007654321', 'Need more info about volunteer events in Karachi.', 'Read');
+        (1, 'Ali Raza', 'ali@example.org', '03001234567', 'Interested in your community leadership programs.', 'New'),
+        (2, 'Sara Khan', 'sara@example.org', '03007654321', 'Need more info about volunteer events in Karachi.', 'Read');
     `);
 
     // Seed test volunteers
@@ -126,8 +126,8 @@ async function initDB() {
     await connection.query(`
       INSERT IGNORE INTO volunteers (id, name, email, phone, interest, message, status)
       VALUES 
-        (1, 'Bilal Ahmed', 'bilal@example.com', '03331122334', 'Teaching', 'Want to help teach underprivileged kids.', 'Pending'),
-        (2, 'Zainab Tariq', 'zainab@example.com', '03219988776', 'Event Management', 'Available on weekends for community drives.', 'Approved');
+        (1, 'Bilal Ahmed', 'bilal@example.org', '03331122334', 'Teaching', 'Want to help teach underprivileged kids.', 'Pending'),
+        (2, 'Zainab Tariq', 'zainab@example.org', '03219988776', 'Event Management', 'Available on weekends for community drives.', 'Approved');
     `);
 
     console.log("✅ Database initialized and seeded successfully!");

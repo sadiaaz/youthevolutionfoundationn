@@ -36,12 +36,12 @@ export const metadata: Metadata = {
   authors: [{ name: "Youth Evolution Foundation" }],
   creator: "Youth Evolution Foundation",
   publisher: "Youth Evolution Foundation",
-  metadataBase: new URL("https://youthevolution.org"),
+  metadataBase: new URL("https://youthevolutionfoundation.org"),
   openGraph: {
     title: "Youth Evolution Foundation | Empowering Youth in Pakistan",
     description:
       "Empowering youth through education, mentorship, and community-driven impact.",
-    url: "https://youthevolution.org",
+    url: "https://youthevolutionfoundation.org",
     siteName: "Youth Evolution Foundation",
     locale: "en_US",
     type: "website",
